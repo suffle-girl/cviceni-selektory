@@ -49,3 +49,16 @@ body {
 }
 
 /* Tady napište své styly */
+.contact:nth-child(2n) {
+  background-color: white;
+}
+
+.photo {
+  border: 3px solid lightblue;
+}
+
+div > img:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: all 0.25s;
+}
